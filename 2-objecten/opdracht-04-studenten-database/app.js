@@ -41,21 +41,20 @@ const students = [
   },
 ];
 
-// function toonAlleStudenten() {
-//   // 📝 WAT MOET JE DOEN:
-//   // 1. Loop door de hele 'students' array
-//   // 2. Maak voor elke student een HTML article element
-//   // 3. Voeg de HTML toe aan het element met id 'studenten-lijst'
-//   //
-//   // 💡 TIP: Gebruik array.map() om HTML te maken en innerHTML om toe te voegen
-//   //
-//   // 🎯 VOORBEELD HTML per student:
-//   // <article class="actief"> (of "inactief")
-//   //     <strong>Emma van Dijk</strong> (20 jaar)<br>
-//   //     📚 Frontend Development<br>
-//   //     📊 Cijfer: 8.5 | Status: ✅ Actief
-//   // </article>
-// }
+const studentList = document.getElementById('studenten-lijst')
+
+
+function toonAlleStudenten() {
+students.map(student => {
+  studentList.innerHTML += `
+  <p>naam: ${student.naam}</p>
+  <p>leeftijd: ${student.leeftijd}</p>
+  <p>studie: ${student.studie}</p>
+  <p>cijfer: ${student.cijfer}</p>
+  <p>actief: ${student.actief}</p>
+`;
+})
+}
 
 function toonActieveStudenten() {
   // 📝 WAT MOET JE DOEN:
