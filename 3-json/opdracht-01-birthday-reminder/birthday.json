@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Piet",
+    "age": 29,
+    "image": "https://randomuser.me/api/portraits/women/10.jpg"
+  },
+  {
+    "name": "Jaap",
+    "age": 32,
+    "image": "https://randomuser.me/api/portraits/women/20.jpg"
+  },
+  {
+    "name": "Peter",
+    "age": 36,
+    "image": "https://randomuser.me/api/portraits/men/30.jpg"
+  },
+  {
+    "name": "Ahmet",
+    "age": 34,
+    "image": "https://randomuser.me/api/portraits/men/40.jpg"
+  },
+  {
+    "name": "Enes",
+    "age": 29,
+    "image": "https://randomuser.me/api/portraits/women/50.jpg"
+  },
+  {
+    "name": "Urling",
+    "age": 31,
+    "image": "https://randomuser.me/api/portraits/women/60.jpg"
+  }
+]
